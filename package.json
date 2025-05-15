@@ -1,0 +1,14 @@
+{
+  "name": "shopify-page-update",
+  "version": "1.0.0",
+  "description": "Shopify Custom App to update a page",
+  "main": "publish.js",
+  "scripts": {
+    "publish": "node publish.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "graphql-request": "^7.1.2"
+  }
+}
